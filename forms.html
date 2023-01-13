@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   
+    <title>Forms</title>
+</head>
+
+<body >
+    <h1>HTML Forms</h1>
+    <fieldset>
+    <form method="get">
+        <label for="firstname">First Name</label>
+        <input id="firstname" type="text" name="firstname"/>
+        
+        <label for="lastname">Last Name</label>
+        <input type="text" name="lastname" placeholder="last name" required/>
+        <br/><br/>
+
+        <label>Email</label>
+        <input type="email"/>
+
+        <label>Phone Number</label>
+        <input type="number"/>
+        <br/>
+         <br/>
+        <label>Password</label>
+        <input type="password"/>
+
+        <label>Time</label>
+        <input type="time"/>
+        <br /> 
+        <br/>
+
+        <label>Date</label>
+        <input type="date"/>
+        <br /> <br />
+
+        <label>Date Time</label>
+        <input type="datetime-local"/>
+
+    <br />
+    <br />
+    <label>Language</label><br/> <br />
+    <label> English</label>
+    <input type="radio" name="Language" value="English"/>
+    <label> Hindi</label>
+    <input type="radio" name="Language" value="Hindi"/>
+    <label> Marathi</label>
+    <input type="radio" name="Language" value="Marathi"/>
+    <label> Gujrati</label>
+    <input type="radio" name="Language" value="Gujrati"/>
+
+    <label>Language</label><br/> <br />
+    <label> English</label>
+    <input type="checkbox" name="Lang" value="English" checked/>
+    <label> Hindi</label>
+    <input type="checkbox" name="Lang" value="Hindi"/>
+    <label> Marathi</label>
+    <input type="checkbox" name="Lang" value="Marathi"/>
+    <label> Gujrati</label>
+    <input type="checkbox" name="Lang" value="Gujrati"/>
+
+    <label> url</label>
+    <input type="url" />
+    <br />
+    <br>
+    <label > upload your file</label>
+    <input type="file" />
+    <br>
+    <br>
+    <input type="hidden" value="1234" name="secret id">
+    <textarea name="message" id="" cols="50" rows="10" maxlength="250" placeholder="hello" required>
+    name:
+    class:
+    section:
+    roll no:
+    </textarea>
+    <br>
+    <fieldset>
+        <legend>select your current choice</legend>
+    <label>select your current choice</label>
+    <select name="Progress">
+        <optgroup label="Begineer">
+            <option value="" disabled selected hidden>choose</option>
+            <option value="1">HTML</option>
+            <option value="2">CSS</option>
+            <option value="3">JAVASCRIPT</option>
+            <option value="4">REACT</option>
+        </optgroup>
+        <optgroup label="EXPERT">
+            <option value="5">NODE</option>
+            <option value="6">MANGO</option>
+            <option value="7">EXPRESS</option>
+            <option value="8">AUTHENTICATION</option>
+        </optgroup>
+    </select>
+</fieldset>
+    <br />
+    <br />
+    <button type="reset">reset</button>
+    <input type="button" value="Button"/>
+    <input type="submit" />
+
+
+    </form>
+</body>
+</fieldset>
+</html>
